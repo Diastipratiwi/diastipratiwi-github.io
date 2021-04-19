@@ -1,1 +1,1 @@
-# diastipratiwi-github.io
+# diastipratiwi.github.io

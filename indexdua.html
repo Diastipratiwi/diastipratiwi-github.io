@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Indonesia</title>
+    <link rel="icon" type="image/svg" href="assets/icons/logo-white.svg">
+    <link rel="stylesheet" href="stylesheetdua.css" type="text/css"/>
+    <link rel="stylesheet" href="responsive.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+    <script src="jquery-3.6.0.slim.min.js"></script>
+    <script src="scriptdua.js"></script>
+
+    <!-- Content's ZOOM ANIMATION -->
+    <link rel="icon" type="image/svg" href="assets/icons/logo-white.svg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body  id="homeone">
+     <!-- MOUSE TRAIL ANIMATION -->
+     <div class = "trail">
+        <div class ="pointer"></div>
+        <div class = "pointer pointer2"></div>
+        <div class = "pointer pointer3"></div>
+        <div class = "pointer pointer4"></div>
+        <div class = "pointer pointer5"></div>
+      </div>
+      <script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type ="text/javascript">
+        $(document).mousemove(function(e){
+          $('.pointer').css({left: e.pageX, top: e.pageY});
+        });
+      </script>
+
+    <header>
+        <div class="logo-img">
+            <a><img alt src="images/logo-full.svg"></a>
+        </div>
+        <div class="nav">
+            <a class="scrollto" data-target="homeone">Home</a>
+            <a class="scrollto" data-target="highlight">Tour</a>
+            <a class="scrollto" data-target="offeringSatu">Event</a>
+            <a class="scrollto" data-target="map">Term & Condition</a>
+        </div>
+        <div class="searchbox">
+            <div class="share-item">
+                <a class="twitter"></a>
+                <a class="instagram"></a>
+                <a class="facebook"></a>
+            </div>
+            <div class="searchinput">
+                <a class="iconcari"><img src="images/iconcari.png"></a>
+                <input class="input-rounded" type="text" placeholder="Search something">
+                <a id="myBtn" class="menukecil"><img src="images/iconsearch.png"></a>
+                
+            </div>
+            <div class="dropdown">
+                <div id="myDropdown" class="dropdown-content">
+                <a class="scrollto" data-target="homeone">Home</a>
+                <a class="scrollto" data-target="highlight">Tour</a>
+                <a class="scrollto" data-target="offeringSatu">Event</a>
+                <a class="scrollto" data-target="map">Term & Condition</a>
+                </div>
+            </div>
+            <script>
+                // Get the button, and when the user clicks on it, execute myFunction
+                document.getElementById("myBtn").onclick = function() {myFunction()};
+                
+                /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+                function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                }
+            </script>
+        </div>
+    </header>
+    <div class="content" id="content">
+        <div class="headline">
+            <h3>Visit and Explore <span>Bangka Belitung</span></h3>
+            <p>Recharge your soul with the nature and beauty of the Indonesian sea !</p>
+            <button class="btn scrollto" data-target="offeringSatu">OPEN TRIP NOW</button>
+        </div>
+        <div class="highlight" id="highlight">
+          <h3 style="margin-bottom: 20px;">Highlights in Bangka Belitung</h3>
+          <label>Many destinations that can be visited,<br/>have natural beauty and uniqueness of Indonesian culture</label>
+          <div class="highlight-items">
+              <div class="highlight-card">
+                  <img alt src="images/Pulau Belitung.jpg"/>
+                  <label>Belitung Island</label>
+                  <p>An island in Indonesia that is famous for its Tanjung Tinggi beach, colonial architecture & coral reef snorkeling.</p>
+              </div>
+              <div class="highlight-card">
+                  <img alt src="images/Pulau Bangka.jpg"/>
+                  <label>Bangka Island</label>
+                  <p>An island located east of Sumatra, Indonesia, and included in the province of the Bangka Belitung Islands.</p>
+              </div>
+              <div class="highlight-card">
+                  <img alt src="images/Tanjung kalayang.jpg"/>
+                  <label>Tanjung Kelayang Beach</label>
+                  <p>A slice of Heaven on the Belitung Peninsula. the giant pile of granite that looked like a bird's head.</p>
+              </div>
+              <div class="highlight-card">
+                  <img alt src="images/pulau-lengkuas.jpg"/>
+                  <label>Lengkuas Island</label>
+                  <p>One of the hundreds of islands in Bangka Belitung Province has a high exotic value.</p>
+              </div>
+          </div>
+        </div>
+        
+        <div class="offering" id="offeringSatu">
+            <h3>PROMO OPEN TRIP<br/>KAOLIN LAKE BELITUNG !</h3>
+            <p>Each ticket includes:  <strong>20</strong> speakers, <strong>1000</strong> participants, <strong>15</strong> sessions, <strong>5</strong> keynotes.</p>
+            <button class="btn">BUY TICKET $149</button>
+        </div>
+
+        <!-- <div class="location"> 
+            <div>
+                <h3>Bangka Belitung</h3>
+                <p>Our event will be held at the <strong>Main<br>Office</strong> headquarters at <strong>Provost &amp; East<br>Building 145 City Road, London</strong>.</p>
+                <img class="maps" alt="" src="assets/landscape/1.jpg">
+            </div>
+            <div class="display-image">
+                <img alt="" src="assets/landscape/1.jpg">
+            </div>
+        </div>-->
+
+      </div>
+      
+        <div class = "map-section" id="map"> 
+            <h2 style = "margin-bottom: 20px;">Bangka Belitung Location</h2>
+            <ul class ="map-flex">
+              <li class = "li1">
+                <p>The Bangka-Belitung Islands form an Indonesian province off the east coast of Sumatra. Small islets surround the 2 main islands, Bangka and Belitung. Sandy beaches with large granite rock formations include Tanjung Tinggi Beach on Belitung island. Belitung’s Tanjung Kelayang Beach is a jumping-off point for Lengkuas Island, with its coral reef, colorful fish and colonial Dutch-built lighthouse.</p>
+              </li> 
+              <li class ="li2">
+                <iframe class = "googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2040988.303673785!2d105.54109549428352!3d-2.4045536554374665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1716432da5398b%3A0x127e38fdb18423b9!2sBangka%20Belitung%20Islands!5e0!3m2!1sen!2sid!4v1617896680860!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </li>
+            </ul>
+          </div>
+
+        <div class="footer-info">
+            <div class="logo-imgfo">
+                <img alt src="images/logo-full.svg" />
+            </div>
+            <div class="infos">
+                <div>
+                    <label>Company</label>
+                    <span>About Us</span>
+                    <span>Carriers</span>
+                    <span>Partner</span>
+                </div>
+                <div>
+                    <label>Support</label>
+                    <span>Help Center</span>
+                </div>
+                <div>
+                    <label>Contact Us</label>
+                    <span>
+                        Email : visitbangka@belitung.com <br/>
+                        Phone : 082366171183
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>© 2019  Visit and Explore Bangka Belitung</footer>
+
+    
+    <div class="modal modal-highlight" style="display: none;">
+        <img class="modal-content" alt src=""/>
+        <div class="modal-desciption">
+            <label></label>
+            <p></p>
+        </div>
+    </div>
+</body>
+</html>

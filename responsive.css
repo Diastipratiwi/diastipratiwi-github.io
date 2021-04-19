@@ -1,0 +1,324 @@
+@media screen and (max-width: 1000px) {
+    /* HEADER BY CITAMI + DIASTI */
+    .header {
+        height: auto;
+    }
+    
+    .header-right {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: block;
+        margin-right: 30px;
+    }
+
+    .header-list {
+        display:  none;
+    }
+
+    .header .headericon {
+        color: white;
+        float: right;
+        padding: 21px 0;
+        display: block;
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+
+    .searching {
+        padding: 5px 8px;
+        background: rgba(50, 50, 50, 0.2);
+        border: 0 solid #dbdbdb;
+        float:left;
+        margin-top: 60px;
+        margin-left: 30px;
+       
+    }
+
+    .searchinput .iconcari {
+        bottom: 8px;
+        position: absolute;
+        right: 210px;
+    }
+
+    .search{
+        padding: 1px;
+    }
+
+    form{
+        font-size: 3px;
+    }
+
+    .button {
+        position: relative;
+        background-color: #53bd84;
+        padding: 3px 3px;
+        left: -8px;
+        border: 2px solid #53bd84;
+        color: #fafafa;
+    }
+
+    .input .search{
+        padding: 0px;
+    }
+
+    /* HIGHLIGHT CONTENT BY DIASTI */
+    .highlight-items {
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        grid-column-gap: 40px;
+    }
+
+    .highlight h3 {
+        font-size: 22px;
+    }
+    
+    .highlight label {
+        font-size: 14px;
+    }
+    
+    .highlight p {
+        font-size: 13px;
+    }
+
+    /* MAP BY YELKE */
+    .map-section h2 {
+        font-size: 22px;
+    }
+
+    .map-section p {
+        font-size: 13px;
+    }
+    
+    .map-section li{
+        width: 80%;
+    }
+
+    .map-flex {
+        flex-direction: column;
+    }
+    
+    .map-flex li {
+        margin: 0 auto;
+    }
+
+
+}
+
+@media screen and (max-width: 670px) {
+/* HEADER */
+    header{
+        grid-template-columns: auto auto;
+        padding-top: 20px;
+    }
+
+    header .searchbox {
+    grid-row-gap: 0px;
+    }
+    input {
+        font-size: 12px;
+    }
+    .searchbox .searchinput .menukecil {
+        display: inline;
+        height: 80%;
+        background-size: cover;
+
+    }
+
+    .searchbox .menukecil:hover{
+        background: url('images/iconsearchdua.png');
+        background-size: cover;
+    }
+    header .searchinput {
+        display: inline-flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    header .share-item a {
+        height: 15px;
+        width: 15px;
+    }
+    header .nav{
+        font-size: 15px;
+        display: none;
+    }
+
+    header .logo-img {
+        height: 75px;
+        margin: 0 20px;
+        padding-left: 10px;
+        overflow: hidden;
+    }
+
+
+/* DROPDOWN */
+.menukecil {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right:0;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .show {display:block;}
+
+  .searchinput .iconcari {
+    bottom: 8px;
+    position: absolute;
+    right: 230px;
+}
+
+/* HEADLINE */
+    .headline h3{
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    .headline span{
+        margin-top: 20px;
+        font-weight: 700;
+        display: block;
+        font-size: 30px;
+    }
+
+    .headline p{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    /* WELCOME SECTION BY DIASTI */
+    .top-wrapper h1{
+        opacity: 0.9;
+        font-size: 30px;
+        letter-spacing: 10px;
+        margin-bottom: 10px;
+    }
+
+    .top-wrapper {
+        padding: 100px 0 250px 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        height: 15px;
+        margin-top:60px;
+    }
+
+    .signup {
+        background-color: white;
+        font-family : 'fantasy', Impact;
+        font-size : 18px;
+    }
+
+    .btn-wrapper {
+        margin: 10px 0;
+        font-size: 50px;
+    }
+
+    /* HIGHLIGHT CONTENT BY DIASTI */
+    .highlight-items {
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        grid-column-gap: 20px;
+    }
+
+    .highlight h3 {
+        font-size: 22px;
+    }
+
+    .highlight label {
+        font-size: 14px;
+    }
+
+    .highlight p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .content .headline {
+        margin-top: -9px;
+    }
+    /* OFFERING */
+
+    .offering h3{
+        font-size: 25px;
+    }
+
+    .offering p{
+        font-size: 12px;
+    }
+    .btn{
+        padding: 10px 19px;
+        font-size: 15px
+    }
+
+
+    /* MAP  */
+    p {
+        font-size: 18px;
+        line-height: 2.5;
+    }
+    .map-section li{
+        width: 80%;
+    }
+
+    .map-flex {
+        flex-direction: column;
+    }
+
+    .map-flex li {
+        margin: 0 auto;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 10px 20px 10px 40px;
+        background: white;
+        text-align: right;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        color: var(--light-text-color);
+    }
+
+    .footer-info .logo-imgfo {
+        height: 130px;
+        display: flex;
+        margin: auto 30px;
+        overflow: hidden;
+    }
+
+    .footer-info {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background: var(--secondary-color);
+        padding: 40px 5%;
+    }
+    
+    .footer-info label {
+        font-size: 14px;
+    }
+    .footer-info span {
+        font-size: 12px;
+    }
+}
